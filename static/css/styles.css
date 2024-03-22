@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    /* Styling for the scrolling headline */
+    .scrolling-headline {
+        position: relative;
+        white-space: nowrap; /* Prevent line breaks */
+        overflow: hidden; /* Hide overflow content */
+        animation: scroll 10s linear infinite; /* Apply the animation */
+    }
+.h1 {
+    text-align: center;
+    color: #e1fa03;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #097bf6;
+}
+textarea {
+    width: 30%;
+    height: 305px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    margin-bottom: 10px;
+}
+.positive {
+    color: green;
+}
+.negative {
+    color: red;
+}
+.footer {
+    background-color: #333;
+    color: #0d0707;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

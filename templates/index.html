@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Sentiment Analysis</title>
+    <link rel="stylesheet" href= "{{ url_for('static' , filename='css/styles.css' ) }}">
+</head>
+<body>
+    <div class="title">
+        <h1 class="h1">Review Sentiment Analysis</h1>
+    </div>
+    <div class="scrolling-headline">
+        <p>Analysing the sentiment of reviews using the trained model by using machine learning</p>    
+    </div>
+
+    <div class="content">
+        <form action="/predict" method="post">
+            <label for="review" class="label">Enter your review:</label><br>
+            <textarea id="review" name="review" rows="1000" cols="50" required></textarea><br>
+            <input type="submit" class=button value="Submit">
+        </form>
+    </div>
+    
+</body>
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Mustafa Shaik.</p>
+    </div>
+</footer>
+</html>
